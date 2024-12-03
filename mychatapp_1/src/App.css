@@ -1,0 +1,41 @@
+
+  .bg-wa{
+    background-image: url("src/assets/bg chat light 1_11zon.webp");
+    
+  }
+@font-face {
+  font-family: 'tahoma';
+  src: url('src/assets/tahoma.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'verdana';
+  src: url('src/assets/VERDANAI.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html{
+  color: white;
+}
+h1,h2,h3,h4,h5,h6{
+  color:black;
+  font-weight: bold;
+  font-size: xx-large;
+}
+p{
+  color:#A1A1A1;
+}
+.btn{
+@apply  bg-hitam  p-4 w-32 xl:w-44 h-10 sm:h-8 xl:h-14 rounded-full text-putih sm:text-sm xl:text-lg group-hover:block flex justify-center items-center 
+}
+.gambar{
+  @apply w-[50%] h-[30%]
+}
+.bg-login{
+  background-image: url(src/assets/bg_login.png);
+  rotate: 90;
+  
+  
+}
